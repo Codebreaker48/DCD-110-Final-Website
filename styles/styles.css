@@ -55,7 +55,8 @@ body {
   justify-content: center;
   align-items: center;
   background:rgb(0, 153, 255);
-  width:50%;
+  width:100%;
+  max-width: 50%;
   height:100%;
 }
 .left-about {
@@ -63,7 +64,8 @@ body {
   justify-content: center;
   align-items: center;
   background:rgb(0, 153, 255);
-  width:72.5%;
+  width:100%;
+  max-width: 72.5%;
   height:100%;
 }
 .bottom-video {
@@ -76,7 +78,8 @@ body {
 }
 .left-item {
   background:white;
-  width:97%;
+  width:100%;
+  max-width: 97%;
   height:97%;
   padding: 10px;
 }
@@ -84,14 +87,16 @@ body {
 .right {
   display: flex;
   flex-direction: column;
-  width:50%;
+  width:100%;
+  max-width: 50%;
   height:100%;
   gap:10px;
 }
 .right-about {
   display: flex;
   flex-direction: column;
-  width:27.5%;
+  width:100%;
+  max-width: 27.5%;
   height:100%;
   gap:10px;
 }
@@ -127,7 +132,8 @@ nav ul li a:hover {
 }
 
 .card {
-    width: 690px; 
+    width:100%;
+    max-width: 690px; 
     height: 200px; 
     padding: 12px; 
     border: 2px solid #999; 
