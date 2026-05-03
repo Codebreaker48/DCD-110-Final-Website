@@ -59,6 +59,13 @@ body {
   height:20%;
   gap:10px;
 }
+.top-bristol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:19%;
+  gap:10px;
+}
 .top-reflect {
   display: flex;
   flex-direction: row;
