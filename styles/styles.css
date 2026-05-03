@@ -12,6 +12,14 @@ body {
   height:100vh;
   gap: 10px;
 }
+.container-reflect {
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  background: rgb(0, 153, 255);
+  height:150vh;
+  gap: 10px;
+}
 .container-news {
   padding:10px;
   display:flex;
@@ -41,6 +49,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height:20%;
+  gap:10px;
+}
+.top-reflect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:15%;
   gap:10px;
 }
 .top-news {
