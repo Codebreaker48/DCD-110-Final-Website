@@ -12,6 +12,14 @@ body {
   height:100vh;
   gap: 10px;
 }
+.container-news {
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  background: rgb(0, 153, 255);
+  height:120vh;
+  gap: 10px;
+}
 .container-videos {
   padding:10px;
   display:flex;
