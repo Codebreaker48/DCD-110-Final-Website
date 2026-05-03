@@ -17,7 +17,7 @@ body {
   display:flex;
   flex-direction: column;
   background: rgb(0, 153, 255);
-  height:105vh;
+  height:110vh;
   gap: 10px;
 }
 .container-reflect {
@@ -57,13 +57,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height:20%;
-  gap:10px;
-}
-.top-bristol {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height:19%;
   gap:10px;
 }
 .top-reflect {
