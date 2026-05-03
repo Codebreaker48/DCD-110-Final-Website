@@ -12,6 +12,14 @@ body {
   height:100vh;
   gap: 10px;
 }
+.container-bristol {
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  background: rgb(0, 153, 255);
+  height:110vh;
+  gap: 10px;
+}
 .container-reflect {
   padding:10px;
   display:flex;
