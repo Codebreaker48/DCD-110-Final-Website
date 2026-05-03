@@ -12,6 +12,14 @@ body {
   height:100vh;
   gap: 10px;
 }
+.container-videos {
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  background: rgb(0, 153, 255);
+  height:110vh;
+  gap: 10px;
+}
 .container-about {
   padding:10px;
   display:flex;
@@ -25,6 +33,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height:20%;
+  gap:10px;
+}
+.top-videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:18.15%;
   gap:10px;
 }
 .top-about {
@@ -79,6 +94,7 @@ body {
 }
 .bottom-video {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background:rgb(0, 153, 255);
